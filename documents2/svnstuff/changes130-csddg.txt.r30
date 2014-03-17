@@ -1,0 +1,169 @@
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+trying git mtimes in bitbucket
+
+2013-10-04[Oct-Fri]08-59AM
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+trying tortoisesvn
+
+2013-09-26[Sep-Thu]22-01PM
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+trying ldap on csddg pc 
+
+2013-09-25[Sep-Wed]10-02AM
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+trying ldap on pmds-data.
+
+Steve H. said I have to install php ldap module.
+
+enable ldap in php.ini
+
+Find and edit C:\xampp\php\php.ini and uncomment “extension=php_ldap.dll” around line 965.
+
+add c:\p2\xampp\php to path.
+
+
+2013-09-24[Sep-Tue]16-20PM
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+trying diffent date formats for speed of entry
+added date1 field
+changed active default to Yes
+fields.ini's changes.
+
+2013-09-24[Sep-Tue]11-37AM
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+just started using crepo getmaster
+
+the following were started on red9c yesterday and Saturday.
+feature: crepo getmaster
+feature: db config files
+feature: datagrid
+
+
+2013-09-23_Mon_10.00-AM a bit of cleaning.
+
+
+2013-09-23[Sep-Mon]09-37AM
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+overwritten with pmdsdata version
+
+2013-09-17[Sep-Tue]12-59PM
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+added handler-sendeml.js to show a message when send email button is pressed.
+added handler-save1.js to prevent double clicks on save button.
+
+2013-07-19[Jul-Fri]09-37AM
+2013-07-19_Fri_09.54-AM
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+changed to xataface30711 version.
+-has ie8 document rules 
+-has yui autocomplete max results directive.
+
+2013-07-11[Jul-Thu]09-39AM
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+added send email button on details page.
+removed email sending process from the save button.
+
+
+2013-06-27[Jun-Thu]13-38PM
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+changed email border
+
+2013-06-13[Jun-Thu]09-20AM
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+added actions buttons to table menus to sort notes and aboutthisapp
+
+works.
+
+
+2013-06-10[Jun-Mon]13-58PM
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+removed
+--skip-comments  --skip-opt
+from
+C:\n\Dropbox\csd\dg2\knowledge-csd-dg\xataface global knowledge\documents4apps\dgnote130\1mysqldump-dgnote130.bat
+line
+c:\p2\xampp\mysql\bin\mysqldump.exe --user=dg417 --password=dg --databases dgnote130 --skip-comments --complete-insert --skip-opt --quote-names --add-drop-database --allow-keywords > dgnote130exp.sql
+
+it didn't included auto increment option.
+
+This should be removed for all dumps for all apps.
+
+2013-05-24[May-Fri]13-37PM 
+on csd-dg pc
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+moved it to xampp 181 test on dgleba csd c p2 xampp
+
+2013-05-22[May-Wed]11-45AM
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+trying core xataface204553 with may 1st g2 module
+
+
+2013-05-06[May-Mon]16-07PM
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+moved from 
+C:\p2\websw\xampp\
+to
+C:\p2\xampp\
+
+2013-05-02[May-Thu]15-33PM
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+try to move xataface to  folder adjcent to app folder
+
+moved xataface to folder beside app folder. modules are in that xataface folder.
+works 2013-04-30_Tue_11.42-AM.
+C:\p2\websw\xampp\htdocs\xataface204461
+C:\p2\websw\xampp\htdocs\xataface204461\modules\g2
+
+
+2013-04-30[Apr-Tue]11-01AM
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

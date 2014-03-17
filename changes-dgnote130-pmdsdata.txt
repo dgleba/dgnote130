@@ -1,0 +1,75 @@
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+testing mobile dashboard, but it styles all tabs with mobile and it doesn't work.
+using desktop dashboard with large buttons.
+
+2013-09-20[Sep-Fri]10-30AM
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+added action edit4note.
+custom form
+
+2013-09-04[Sep-Wed]12-33PM
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+tried to change my css file to css folder but getting 
+
+error: 
+Fatal error: Uncaught exception 'Exception' with message 'Failed to load current record due to an SQL error' in C:\p2\xampp\htdocs\xataface30801\Dataface\QueryTool.php:424 Stack trace: #0 C:\p2\xampp\htdocs\xataface30801\Dataface\Application.php(1301): Dataface_QueryTool->loadCurrent() #1 C:\p2\xampp\htdocs\xataface30801\Dataface\Application.php(2984): Dataface_Application->getRecord() #2 C:\p2\xampp\htdocs\xataface30801\Dataface\Application.php(3013): Dataface_Application->getPermissions() #3 C:\p2\xampp\htdocs\xataface30801\Dataface\ActionTool.php(237): Dataface_Application->checkPermission('list') #4 C:\p2\xampp\htdocs\xataface30801\Dataface\Table.php(5566): Dataface_ActionTool->getActions(Array) #5 C:\p2\xampp\htdocs\xataface30801\Dataface\ActionTool.php(81): Dataface_Table->getActions(Array) #6 C:\p2\xampp\htdocs\xataface30801\Dataface\ActionTool.php(97): Dataface_ActionTool->_loadTableActions('nte_note') #7 C:\p2\xampp\htdocs\xataface30801\Dataface\Application.php(2200): Dataface_ActionTool->getAction(Array) #8 C:\p in C:\p2\xampp\htdocs\xataface30801\Dataface\QueryTool.php on line 424
+
+not sure if it is related.
+
+
+2013-08-13[Aug-Tue]10-29AM
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+testing out date format.
+
+[datenote]
+   date_format= "%m/%d/%y"
+   widget:type=datetimepicker
+   
+note:
+it does format the date in the list view.
+in the regular or    datetimepicker you have to enter the date as yy-m-d  eg: 13-5-24
+
+dgnote130 pmds-data
+2013-08-01[Aug-Thu]12-38PM
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+trying core xataface204553 with may 1st g2 module
+
+
+2013-05-06[May-Mon]16-07PM
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+moved from 
+C:\p2\websw\xampp\
+to
+C:\p2\xampp\
+
+2013-05-02[May-Thu]15-33PM
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+try to move xataface to  folder adjcent to app folder
+
+moved xataface to folder beside app folder. modules are in that xataface folder.
+works 2013-04-30_Tue_11.42-AM.
+C:\p2\websw\xampp\htdocs\xataface204461
+C:\p2\websw\xampp\htdocs\xataface204461\modules\g2
+
+
+2013-04-30[Apr-Tue]11-01AM
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

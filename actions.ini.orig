@@ -1,0 +1,130 @@
+[dashboard_action]
+    permission=view
+    
+;[create9note]
+;	label=" ----- ----- ----- ----- ----- Create New Record -- Using a Mobile Page ----- ----- "
+;	description="Create record..."
+;	category=table_actions
+;	condition="$query['-table'] == 'vw_nte_note'"
+; url="{$app->url('-action=create9note')}"
+;	order=14
+  
+
+[dashall]
+    label= "  Dashboard  "
+    ;label= "Dashboard - - - - - - - - - - - - - - - - - "
+    category=table_actions
+    description=" go to the dashboard "
+    ;condition="$query['-table'] == 'vw_nte_note'"
+    url="{$site_href}?-table=dashboard" 
+    ;some conditions, it doesn't worky,, url="{$app->url('-table=dashboard')}"
+    order=31
+
+
+[edit9note]
+    label= "---- Edit  ------  using Mobile Page -----"
+    category=record_actions
+    description=" simple mobile view to edit the note "
+    condition="$query['-table'] == 'vw_nte_note'"
+    url="{$app->url('-action=edit9note')}"
+    order=33
+    
+  
+
+[edit8note]
+    label= "Edit 8"
+    category=record_actions
+    description=" simple mobile view to edit the note "
+    condition="$query['-table'] == 'vw_nte_note'"
+    url="{$app->url('-action=edit8note')}"
+    order=43
+    
+[edit7note]
+    label= "Edit 7"
+    category=record_actions
+    description=" simple mobile view to edit the note "
+    condition="$query['-table'] == 'vw_nte_note'"
+    url="{$app->url('-action=edit7note')}"
+    order=44
+
+[edit6note]
+    label= "Edit 6"
+    category=record_actions
+    description=" first mobile view to edit the note "
+    condition="$query['-table'] == 'vw_nte_note'"
+    url="{$app->url('-action=edit6note')}"
+    order=51
+
+[edit5note]
+    label= "Edit 5"
+    category=record_actions
+    description=" first mobile view to edit the note "
+    condition="$query['-table'] == 'vw_nte_note'"
+    url="{$app->url('-action=edit5note')}"
+    order=55
+
+
+[edit4note]
+    label= "Edit 4"
+    category=record_actions
+    description=" A fourth view to edit the note "
+    condition="$query['-table'] == 'vw_nte_note'"
+    url="{$app->url('-action=edit4note')}"
+    order=66
+
+[edit3note]
+    label= "edit3"
+    category=record_actions
+    description=" A third view to edit the note "
+    condition="$query['-table'] == 'nte_note'"
+     url="{$app->url('-action=edit3note')}"
+    order=77
+
+	
+[import > import]
+	category=""
+	
+
+[c1_cmpt_send_email]
+    label= "Send Email - Compacting"
+    category=record_actions
+    description=" Send the email for the record being viewed on this page. [c1cmpt] "
+    condition="$query['-table'] == 'sf_csd1_cmpt'"
+    url="{$app->url('-action=c1_cmpt_send_email')}"
+
+[csd1_sinter_send_email]
+    label= "Send Email - Sinter"
+    category=record_actions
+    description=" Send the email for the record being viewed on this page. [c1sintr] "
+    condition="$query['-table'] == 'sf_csd1_sinter'"
+    url="{$app->url('-action=csd1_sinter_send_email')}"
+
+
+[ncl_send_email]
+    label= "Send Email NCL"
+    category=record_actions
+    description=" Send the email for the record being viewed on this page. "
+    condition="$query['-table'] == 'sf_ncl'"
+    url="{$app->url('-action=ncl_send_email')}"
+
+[rpt_cnc_send_email]
+    label= "Send Email - CNC"
+    category=record_actions
+    description=" Send the email for the record being viewed on this page. [cnc] "
+    condition="$query['-table'] == 'sf_rpt'"
+    url="{$app->url('-action=rpt_cnc_send_email')}"
+
+        
+[c1_cmpt_superv_send_email]
+    label= "Send Email"
+    category=record_actions
+    description=" Send the email for the record being viewed on this page. "
+    condition="$query['-table'] == 'sf_c1_cmpt_superv'"
+    url="{$app->url('-action=c1_cmpt_superv_send_email')}"
+       
+        
+[send_email_test]
+    category=record_actions
+    description=" Send the email for the record being viewed on this page. "
+    condition="$query['-table'] == 'sf_test'"
+    url="{$app->url('-action=send_email_test')}"

@@ -1,0 +1,29 @@
+
+
+#left_column {
+  display: none;
+}
+
+
+#xf-table-quicklinks {
+  display: none;
+}
+
+#dash-select1 {
+font-family:"Times",monospace;
+}
+
+#dash-btn1 {
+    font-weight: bolder;
+    font-size: 2.3em;
+    height: 3em; 
+    width: 19em;
+    background-size: cover; 
+    border-style:solid;
+    border-width: 0.15em;
+    background-color:#ECC8A3;
+    /* blueish #E5E5FF */
+}
+
+
+

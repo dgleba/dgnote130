@@ -1,0 +1,6 @@
+
+[_database]
+    host="localhost"
+    name="dgnox"
+    user="x"
+    password="x"

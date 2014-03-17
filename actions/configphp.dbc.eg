@@ -1,0 +1,8 @@
+<?php
+
+/* Connection vars here for example only. Consider a more secure method. */
+$dbhost = 'localhost';
+$dbuser = 'x';
+$dbpass = 'x';
+$dbname = 'x';
+

@@ -1,0 +1,62 @@
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+change. test on red9c.
+
+2013-10-06[Oct-Sun]21-30PM
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+added lines in index.php to suppress warnings. like strict standards.
+
+2013-09-25[Sep-Wed]22-21PM
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+on pmds-data.
+
+trying ldap on pmds-data.
+
+Steve H. said I have to install php ldap module.
+
+enable ldap in php.ini
+
+Find and edit C:\xampp\php\php.ini and uncomment “extension=php_ldap.dll” around line 965.
+
+add c:\p2\xampp\php to path.
+
+copy libsasl.dll from c:\xampp\php\libsasl.dll to C:\xampp\apache\bin\.
+http://buildingtents.wordpress.com/2013/04/25/ldap-authentication-rpi-tutorial-part-1/
+
+
+2013-09-24[Sep-Tue]16-20PM
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+2013-09-21 added datagrid module
+put database credentials in config.dbc and configphp.dbc
+
+added bat files to use dropbox to store master repo - crepo
+may start to getmaster before changing anything tomorrow. need to decide what is most up to date.
+
+
+2013-09-22[Sep-Sun]20-54PM
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+added session timer with onscreen display
+
+2013-09-03[Sep-Tue]22-30PM
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+trying my own form
+
+2013-08-27[Aug-Tue]22-57PM
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

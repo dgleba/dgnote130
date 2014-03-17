@@ -1,0 +1,41 @@
+{use_macro file="Dataface_Main_Template.html"}
+{fill_slot name="main_column"}
+<h1>This is - dgnote130</h1>
+
+<p>This is a test app. The contents of the system are notes.
+<ul>
+    <li>
+        <!--<img src="{$ENV.DATAFACE_URL}/images/add_icon.gif"/>-->
+        <a href="{$ENV.DATAFACE_SITE_HREF}?-table=vw_nte_note&-action=create9note">
+            <button type="button" id="dash-btn1" >
+                New note (Mobile)</button>
+        </a>
+    </li>
+
+    <li>
+        <!--<img src="{$ENV.DATAFACE_URL}/images/edit.gif"/>-->
+        <a href="{$ENV.DATAFACE_SITE_HREF}?-table=vw_nte_note">
+            <button type="button" id="dash-btn1" >Edit note</button>
+        </a>
+    </li>
+
+    <li>
+        <!--<img src="{$ENV.DATAFACE_URL}/images/edit.gif"/>--> 
+        <span style="font-size:4.4em;"><br/><br/>Edit</span>  
+        <span style="font-size:2em;">(from list):</span>
+         
+        <select onchange="window.location.href = this.options[this.selectedIndex].value" id="dash-select1">
+            <option value="">Select ...</option>
+            {foreach from=$vw_nte_note item=arecord}
+            <option value="{$arecord->getURL('-action=edit9note')}">
+                {$arecord->getTitle()}
+            </option>
+
+            {/foreach}
+        </select>
+    </li>
+
+
+</ul>
+{/fill_slot}
+{/use_macro}

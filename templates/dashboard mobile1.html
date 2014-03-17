@@ -1,0 +1,57 @@
+{use_macro file="Dataface_Main_Template.html"}
+{fill_slot name="main_column"}
+
+<!DOCTYPE html> 
+<html> 
+    <title></title>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+        <script type="text/javascript" src="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script>
+
+    </head>
+    <body>
+
+        <h1>dgnote130</h1>
+        <div data-role="dmpage1" id="container"> 
+
+
+            <p>This is a test app. The contents of the system are notes.
+            <ul>
+                <li><img src="{$ENV.DATAFACE_URL}/images/add_icon.gif"/>
+                    <a href="{$ENV.DATAFACE_SITE_HREF}?-table=vw_nte_note&-action=create9note">
+                        <button type="button" id="dash-btn1x" >
+                            Create new note (Mobile)</button>
+                    </a>
+                </li>
+
+                <li><img src="{$ENV.DATAFACE_URL}/images/edit.gif"/>
+                    <a href="{$ENV.DATAFACE_SITE_HREF}?-table=vw_nte_note">
+                        <button type="button" id="dash-btn1x" >Edit note</button>
+                    </a>
+                </li>
+
+                <li><img src="{$ENV.DATAFACE_URL}/images/edit.gif"/> 
+                    <span style="font-size:6.4em;"><br/><br/>Edit</span>  
+                    <span style="font-size:2em;">(from list):</span>
+
+                    <select onchange="window.location.href = this.options[this.selectedIndex].value" id="dash-select1">
+                        <option value="">Select ...</option>
+                        {foreach from=$vw_nte_note item=arecord}
+                        <option value="{$arecord->getURL('-action=edit9note')}">
+                            {$arecord->getTitle()}
+                        </option>
+                        {/foreach}
+                    </select>
+                </li>
+
+            </ul>
+
+
+        </div>
+    </body>
+</html>
+
+{/fill_slot}
+{/use_macro}
