@@ -34,7 +34,6 @@
 1379687435|changes-dgnote130-pmdsdata.txt
 1381109439|changes-dgnote130-red9c-2.txt
 1383859400|changes130-csddg.txt
-1383138553|conf.ini
 1382368489|conf/ApplicationDelegate.php
 1380248071|config.dbc.eg
 1336610662|css/blanklogo.png
@@ -46,7 +45,6 @@
 1380911135|documents2/svnstuff/changes130-csddg.txt.mine
 1380911135|documents2/svnstuff/changes130-csddg.txt.r28
 1380911135|documents2/svnstuff/changes130-csddg.txt.r30
-1380246582|index.php
 1379434085|js/handler-idletimeout.js
 1378216050|js/handler-save1.js
 1379434095|js/handler-save1a.js
@@ -72,9 +70,7 @@
 1340057800|tables/nte_note2/valuelists.ini
 1365428995|tables/users/fields.ini
 1366913566|tables/users/users.php
-1380037455|tables/vw_nte_note/fields.ini
 1366036794|tables/vw_nte_note/relationships.ini
-1340057800|tables/vw_nte_note/valuelists.ini
 1381509690|tables/vw_nte_note/vw_nte_note.php
 1379649322|templates/dashboard - 2013-09-19_Thu_23.58-PM desktop.html
 1379685448|templates/dashboard desk.html
@@ -86,3 +82,12 @@
 1395511224|version-dgnote130.txt
 1395511744|.gitignore
 1379433159|documents2/dgnote130exp2.sql
+1395531244|conf.ini
+1395523943|index.php
+1395461854|modules/mautocomplete_tags_list/actions/action_mac.php
+1395462806|modules/mautocomplete_tags_list/js/macjs.js
+1395532377|modules/mautocomplete_tags_list/mautocomplete_tags_list.php
+1395462872|modules/mautocomplete_tags_list/widgetmac.php
+1395524666|paths.ini
+1395531379|tables/vw_nte_note/fields.ini
+1395524756|tables/vw_nte_note/valuelists.ini
