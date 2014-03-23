@@ -1,4 +1,5 @@
 <?php
+
 require_once "configphp.dbc";
 $conn = mysql_connect($dbhost, $dbuser, $dbpass) or die('Error connecting to mysql');
 mysql_select_db($dbname);
@@ -13,6 +14,18 @@ if ($conn) {
         $row_array['id'] = $row['tags_id'];
         $row_array['value'] = $row['tags_list'];
         //$row_array['abbrev'] = $row['abbrev'];
+        //
+        
+        //write log info
+        //$app = Dataface_Application::getInstance();
+        $handle = fopen("tmp_log_actionmac.txt", 'w');
+        fwrite($handle, "action_mac" . PHP_EOL);
+        fwrite($handle, dirname(__FILE__) . ' ' . PHP_EOL);
+        fwrite($handle, $_SERVER['DOCUMENT_ROOT'] . ' ' . PHP_EOL);
+        fwrite($handle,  substr(dirname(__FILE__),strlen($_SERVER['DOCUMENT_ROOT'])) . ' ' . PHP_EOL);
+        //fwrite($handle, 'dfsitepath' .  DATAFACE_SITE_PATH . PHP_EOL);
+        fclose($handle);
+
 
         array_push($return_arr, $row_array);
     }
