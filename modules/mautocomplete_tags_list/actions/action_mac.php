@@ -16,6 +16,10 @@ if ($conn) {
         //$row_array['abbrev'] = $row['abbrev'];
         //
         
+        if (!file_exists( $_SERVER['DOCUMENT_ROOT'].'/templates_c/tmp_log' )) {
+           mkdir($_SERVER['DOCUMENT_ROOT'].'/templates_c/tmp_log', 0777, true);
+        }
+        
         //write log info
         //$app = Dataface_Application::getInstance();
         $handle = fopen("tmp_log_actionmac.txt", 'w');
