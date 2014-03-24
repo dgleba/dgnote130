@@ -1,13 +1,9 @@
 1395515344|.gitignore
 1381412814|.hgignore
 1386454011|.hgtimestamp
-1381339015|.hgtimestamp.orig
 1380121424|.htaccess
-1378768417|.project
-1380921741|New Text Document.txt
 1335121042|Web.config
 1381339377|actions.ini
-1381339377|actions.ini.orig
 1380251671|actions/configphp.dbc.eg
 1379437517|actions/create10note-frm.php
 1379430532|actions/create10note.php
@@ -34,7 +30,6 @@
 1379691035|changes-dgnote130-pmdsdata.txt
 1381113039|changes-dgnote130-red9c-2.txt
 1383859400|changes130-csddg.txt
-1395534844|conf.ini
 1382372089|conf/ApplicationDelegate.php
 1380251671|config.dbc.eg
 1336614262|css/blanklogo.png
@@ -56,10 +51,6 @@
 1376339664|js/handler-send_email_test.js
 1374160296|js/offline,submithandler.js
 1374204820|js/submithandler1.js
-1395466406|modules/mautocomplete_tags_list/js/macjs.js
-1395535977|modules/mautocomplete_tags_list/mautocomplete_tags_list.php
-1395466472|modules/mautocomplete_tags_list/widgetmac.php
-1367605146|offline,index.html
 1395528266|paths.ini
 1379820888|permissions.ini
 1379437732|tables/dashboard/dashboard.php
@@ -77,7 +68,6 @@
 1340061400|tables/nte_note2/valuelists.ini
 1365432595|tables/users/fields.ini
 1366917166|tables/users/users.php
-1395534979|tables/vw_nte_note/fields.ini
 1366040394|tables/vw_nte_note/relationships.ini
 1395528356|tables/vw_nte_note/valuelists.ini
 1381513290|tables/vw_nte_note/vw_nte_note.php
@@ -85,8 +75,28 @@
 1379689048|templates/dashboard desk.html
 1379651532|templates/dashboard mobile1.html
 1379689048|templates/dashboard.html
-1380913329|test.txt
-1395514824|version-dgnote130.txt
-1367605146|x,index.html
-1395610388|modules/mautocomplete_tags_list/actions/tmp_log_actionmac.txt
-1395613228|modules/mautocomplete_tags_list/actions/action_mac.php
+|.hgtimestamp.orig
+|.project
+|New Text Document.txt
+|actions.ini.orig
+1395700148|conf.ini
+1381342615|documents2/.hgtimestamp.orig
+1378772017|documents2/.project
+1381342977|documents2/actions.ini.orig
+1367608746|documents2/offline,index.html
+1367608746|documents2/x,index.html
+|modules/mautocomplete_tags_list/actions/action_mac.php
+|modules/mautocomplete_tags_list/actions/tmp_log_actionmac.txt
+|modules/mautocomplete_tags_list/js/macjs.js
+|modules/mautocomplete_tags_list/mautocomplete_tags_list.php
+|modules/mautocomplete_tags_list/widgetmac.php
+1395613228|modules/offline/mautocomplete_tags_list/actions/action_mac.php
+1395700054|modules/offline/mautocomplete_tags_list/actions/tmp_log_actionmac.txt
+1395470006|modules/offline/mautocomplete_tags_list/js/macjs.js
+1395539577|modules/offline/mautocomplete_tags_list/mautocomplete_tags_list.php
+1395470072|modules/offline/mautocomplete_tags_list/widgetmac.php
+|offline,index.html
+1395700173|tables/vw_nte_note/fields.ini
+|test.txt
+1395700473|version-dgnote130.txt
+|x,index.html
