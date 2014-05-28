@@ -66,14 +66,21 @@ class conf_ApplicationDelegate {
         $auth = & Dataface_AuthenticationTool::getInstance();
         $user = & $auth->getLoggedInUser();
         if (!isset($user))
-            return Dataface_PermissionsTool::NO_ACCESS();
-        // if the user is null then nobody is logged in... no access.
-        // This will force a login prompt.
-        $role = $user->val('Role');
-        return Dataface_PermissionsTool::getRolePermissions($role);
-        // Returns all of the permissions for the user's current role.
+            // if the user is null then nobody is logged in... no access.
+            // This will force a login prompt.
+           {
+           return Dataface_PermissionsTool::NO_ACCESS();
+           }
+           {
+           $role = $user->val('Role');
+           if ( $user and  $user->val('Role') != 'ADMIN' )
+               {
+               // Returns all of the permissions for the user's current role.
+               return Dataface_PermissionsTool::getRolePermissions($role);
+               }
+           return Dataface_PermissionsTool::ALL();
+           }
     }
-
 
 //endof... class
 }
