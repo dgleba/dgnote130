@@ -72,10 +72,6 @@
 1379689048|templates/dashboard desk.html
 1379651532|templates/dashboard mobile1.html
 1379689048|templates/dashboard.html
-|.hgtimestamp.orig
-|.project
-|New Text Document.txt
-|actions.ini.orig
 1381342615|documents2/.hgtimestamp.orig
 1378772017|documents2/.project
 1381342977|documents2/actions.ini.orig
@@ -91,11 +87,8 @@
 1395470006|modules/offline/mautocomplete_tags_list/js/macjs.js
 1395539577|modules/offline/mautocomplete_tags_list/mautocomplete_tags_list.php
 1395470072|modules/offline/mautocomplete_tags_list/widgetmac.php
-|offline,index.html
 1395700173|tables/vw_nte_note/fields.ini
-|test.txt
 1395700473|version-dgnote130.txt
-|x,index.html
 <<<<<<< .merge_file_a02236
 1401289740|conf.ini
 1401291908|conf/ApplicationDelegate.php
@@ -113,4 +106,10 @@
 =======
 1395715847|modules/offline/mautocomplete_tags_list/readme.txt
 >>>>>>> .merge_file_a02552
-1401884844|.mtimes
+1|.hgtimestamp.orig
+1|.project
+1|New Text Document.txt
+1|actions.ini.orig
+1|offline,index.html
+1|test.txt
+1|x,index.html
