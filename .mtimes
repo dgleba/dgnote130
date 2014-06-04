@@ -96,6 +96,7 @@
 |test.txt
 1395700473|version-dgnote130.txt
 |x,index.html
+<<<<<<< .merge_file_a02236
 1401289740|conf.ini
 1401291908|conf/ApplicationDelegate.php
 1395688414|modules/multipleautocomplete/Readme.md
@@ -109,3 +110,7 @@
 1395715847|modules/offline/mautocomplete_tags_list/readme.txt
 1395766972|paths.ini
 1401290049|permissions.ini
+=======
+1395715847|modules/offline/mautocomplete_tags_list/readme.txt
+>>>>>>> .merge_file_a02552
+1401884844|.mtimes
