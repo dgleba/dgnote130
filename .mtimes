@@ -1,4 +1,3 @@
-1395515344|.gitignore
 1381412814|.hgignore
 1386454011|.hgtimestamp
 1380121424|.htaccess
@@ -36,11 +35,6 @@
 1380563546|css/dashboard1.css
 1378263308|css/dnu,style-xf1.css
 1380563526|css/styleXF2.css
-1391568029|documents2/dgnote130-importmysql.txt
-1379436759|documents2/dgnote130exp2.sql
-1380914735|documents2/svnstuff/changes130-csddg.txt.mine
-1380914735|documents2/svnstuff/changes130-csddg.txt.r28
-1380914735|documents2/svnstuff/changes130-csddg.txt.r30
 1395527543|index.php
 1379437685|js/handler-idletimeout.js
 1378219650|js/handler-save1.js
@@ -72,11 +66,6 @@
 1379689048|templates/dashboard desk.html
 1379651532|templates/dashboard mobile1.html
 1379689048|templates/dashboard.html
-1381342615|documents2/.hgtimestamp.orig
-1378772017|documents2/.project
-1381342977|documents2/actions.ini.orig
-1367608746|documents2/offline,index.html
-1367608746|documents2/x,index.html
 |modules/mautocomplete_tags_list/actions/action_mac.php
 |modules/mautocomplete_tags_list/actions/tmp_log_actionmac.txt
 |modules/mautocomplete_tags_list/js/macjs.js
@@ -113,3 +102,40 @@
 1|offline,index.html
 1|test.txt
 1|x,index.html
+1401887112|.gitignore
+|documents2/.hgtimestamp.orig
+|documents2/.project
+|documents2/actions.ini.orig
+|documents2/dgnote130-importmysql.txt
+|documents2/dgnote130exp2.sql
+|documents2/offline,index.html
+|documents2/svnstuff/changes130-csddg.txt.mine
+|documents2/svnstuff/changes130-csddg.txt.r28
+|documents2/svnstuff/changes130-csddg.txt.r30
+|documents2/x,index.html
+1380656477|documentspublic/1mysqldump.bat.sample
+1380246582|documentspublic/7zxata,,,,dryrun,,,,dgnote130getmaster.bat
+1380303423|documentspublic/7zxata,,,,dryrun,,,dgnote130.bat
+1395600265|documentspublic/7zxata-dgnote130 - redek-old.bat
+1380909879|documentspublic/7zxata-dgnote130-old.bat
+1401886535|documentspublic/7zxata-dgnote130.bat
+1380246582|documentspublic/7zxata-dgnote130getmaster.bat
+1380246582|documentspublic/conf - ad.ini
+1391568029|documentspublic/dgnote130-importmysql.txt
+1380246582|documentspublic/dgnote130.lnk
+1380631778|documentspublic/errors/errorsvn.txt
+1380246582|documentspublic/howto use this.txt
+1380246582|documentspublic/list of apps to draw ideas from.txt
+1380246582|documentspublic/mailtst1.php
+1381346215|documentspublic/old/.hgtimestamp.orig
+1378775617|documentspublic/old/.project
+1381346577|documentspublic/old/actions.ini.orig
+1379440359|documentspublic/old/dgnote130exp2.sql
+1367612346|documentspublic/old/offline,index.html
+1380918335|documentspublic/old/svnstuff/changes130-csddg.txt.mine
+1380918335|documentspublic/old/svnstuff/changes130-csddg.txt.r28
+1380918335|documentspublic/old/svnstuff/changes130-csddg.txt.r30
+1367612346|documentspublic/old/x,index.html
+1380560892|documentspublic/passwordslocations.txt
+1380658102|documentspublic/phpinfodg1.php
+1380246582|documentspublic/see xata global know.txt

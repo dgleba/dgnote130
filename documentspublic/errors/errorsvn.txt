@@ -1,0 +1,59 @@
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+org.apache.subversion.javahl.ClientException: E155021: This client is too old to work with the working copy at
+'C:\p2\xampp\htdocs\dgnote130' (format '31').
+We strongly recommend to either install a newer Subversion client or downgrade your working copy.
+Any local changes might corrupt your working copy and some file operations as copying, renaming and deleting will not work correctly.
+
+2013-10-01[Oct-Tue]08-41AM
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+org.apache.subversion.javahl.ClientException: Unsupported working copy format
+This client is too old to work with the working copy at
+'C:\p2\xampp\htdocs\dgnote130' (format 31).
+You need to get a newer Subversion client. For more details, see
+  http://subversion.apache.org/faq.html#working-copy-format-change
+
+
+We strongly recommend to either install a newer Subversion client or downgrade your working copy.
+Any local changes might corrupt your working copy and some file operations as copying, renaming and deleting will not work correctly.
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+2013-10-01[Oct-Tue]07-41AM
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+MOZ_PLUGIN_PATH=C:\Program Files\Tracker Software\PDF Viewer\
+NUMBER_OF_PROCESSORS=2
+OS=Windows_NT
+Path=C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32\WBEM;C:\Program Files\Intel\DMIX;C:\PROGRA~1\IBM\CLIENT~1;C:\PROGR
+A~1\IBM\CLIENT~1\Shared;C:\PROGRA~1\IBM\CLIENT~1\Emulator;C:\Program Files\Windows Imaging\;C:\WINDOWS\system32\WindowsPow
+erShell\v1.0;C:\Program Files\SAS\SharedFiles\Formats;C:\p2\websw\xampp\Python27;C:\p2\websw\xampp\Python27\scripts;C:\Pro
+gram Files\SlikSvn\bin;C:\p2\xampp\php;C:\Program Files\TortoiseSVN\bin
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.PSC1
+PROCESSOR_ARCHITECTURE=x86
+PROCESSOR_IDENTIFIER=x86 Family 6 Model 23 Stepping 10, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=170a
+ProgramFiles=C:\Program Files
+PROMPT=$P$G
+PSModulePath=C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\
+SESSIONNAME=Console
+SystemDrive=C:
+SystemRoot=C:\WINDOWS
+TEMP=C:\DOCUME~1\dgleba\LOCALS~1\Temp
+
+
+2013-10-01[Oct-Tue]08-48AM
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

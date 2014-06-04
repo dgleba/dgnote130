@@ -1,0 +1,33 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+dgnote130
+-mobile
+-tagger
+
+
+parkingribm
+-regex validation
+
+surveybuilder
+
+
+emptyapp
+-eg: js files collected there
+
+
+csd:
+
+shiftcsd1
+
+sfcsd1sup
+-js session timer
+
+leanmfg
+-auto numbering
+
+prodrpt
+-
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+

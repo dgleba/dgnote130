@@ -1,0 +1,35 @@
+:Prepare date and temp folders
+set ymd=%date:~12,2%%date:~4,2%%date:~7,2%
+set dhms=%date:~12,2%%date:~4,2%%date:~7,2%_%time:~0,2%%time:~3,2%%time:~6,2%
+
+:main
+md C:\p2\xampp\htdocs\dgnote130\documents\bkups
+cd C:\p2\xampp\htdocs\dgnote130\documents\bkups
+
+:preferred
+c:\p2\xampp\mysql\bin\mysqldump.exe --user=x --password=x --databases dgnote130  --complete-insert  --quote-names --add-drop-database --allow-keywords > dgnote130exp2.sql
+
+:copy prodrptexp.sql "C:\backup\prodrpt\prodrptexp-%dhms%.sql"
+
+:works 2013-09-19
+:create csv files
+:cd C:\p2\xampp\htdocs\leanmfg\documentsleanmfg\
+md csv1
+:to get csv files. 
+:NOTE NOTE NOTE user dg417 must have file permission in mysql...
+:works, just offline.. c:\p2\xampp\mysql\bin\mysqldump   dgnote130 --tab="csv1" --fields-terminated-by="," --fields-enclosed-by="\""  --fields-escaped-by="~" --lines-terminated-by="\r\n"  --user=x -px
+
+
+:~=-=-=-=-=-=~ 
+goto end
+:offline:
+
+
+
+
+:end
+: wait some seconds
+PING 127.0.0.1 -n 1 >NUL
+:PING 127.0.0.1 -n 2 >NUL
+pause
+

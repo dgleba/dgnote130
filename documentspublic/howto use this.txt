@@ -1,0 +1,16 @@
+
+~=-=-=-=-=-=~ 
+
+GRANT ALL PRIVILEGES ON `dgnote111` . * TO 'put your username here'@'%';
+
+~=-=-=-=-=-=~ 
+
+
+in app:
+username=user
+passw=user
+
+
+~=-=-=-=-=-=~ 
+
+
